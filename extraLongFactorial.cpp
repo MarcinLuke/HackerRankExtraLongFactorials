@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 #include <vector>
 #include <list>
+
 using namespace std;
 
 vector<int> multiply(vector<int> vec, int divider){
