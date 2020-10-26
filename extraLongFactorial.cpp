@@ -88,8 +88,10 @@ vector<int> add(vector<int> a, vector<int> b, list<int> fin){
     if(rest != -1){
         fin.push_front(rest);
     }
+
     vector<int> result;
     list<int>::iterator it = fin.begin();
+
     for(; it!= fin.end();++it){
         result.push_back(*it);
     }
